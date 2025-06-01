@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: Montserrat, sans-serif;
     font-size: 100%;
   }
 
@@ -58,6 +57,9 @@ body {
     flex: 1;
     font-size: 2.813rem;
     box-shadow: none;
+    background: #ffffff;
+    color: #000000;
+    padding-right: 0.5rem;
   }
 
   form input.equal {
@@ -66,6 +68,19 @@ body {
   }
 
   form input.operator {
-    color: #33ffd8;
+    color: #000000;
+    background-color: #dad6d6;
 
   }
+
+form input.operator-red {
+    color: #fff;
+    background-color: #bb3838;
+
+}
+
+form input.operator-orange {
+  color: #000000;
+  background-color: #cf8b0c;
+
+}
